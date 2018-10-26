@@ -1,0 +1,29 @@
+------ FingerText Snippet Editor View ------
+template
+Ext:pl
+use File::Path qw(make_path rmtree);
+use File::Copy;
+use POSIX;
+require "parse_excel.pl";
+
+# parameter setting
+#ex: my test;
+
+#rmtree("$case_folder"); remove directory folder
+
+#load excel 
+#my $workbook = LoadExcel($excel_file);
+
+
+
+#sub log2 {
+#    my $n = shift;
+#    return log($n)/log(2);
+#}
+
+sub main
+{
+  $[0[]0]
+}
+
+[>END<]

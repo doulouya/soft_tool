@@ -1,0 +1,8 @@
+#echo "off"
+# cpall files from directory $1 if exist
+
+
+if -e $1  then
+ echo "-- copying from $1"
+ cp -rf $1/* ../
+endif
